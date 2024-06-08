@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public final class PropertiesUtil {
     private static final Properties PROPERTIES = new Properties();
-    private static final String PROPERTIES_FILE = "connection.properties";
+    private static final String PROPERTIES_FILE = "db.properties";
 
     static {
         loadProperties();

@@ -1,0 +1,26 @@
+
+g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ÒΖ—Δÿ1
+g	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+g	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+g	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+g	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+h	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+h	java:S112¦"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+h	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΣΖ—Δÿ1
+h	java:S112Θ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΤΖ—Δÿ1
+h	java:S112Ρ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΤΖ—Δÿ1
+h	java:S112γ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΤΖ—Δÿ1
+l
+java:S1192P"JDefine a constant instead of duplicating this literal "ph_number" 3 times.(„ªγ€ÿÿÿÿÿ8ΥΖ—Δÿ1
+R
+java:S1066ή"/Merge this if statement with the enclosing one.(δυ®ψÿÿÿÿ8ΥΖ—Δÿ1
+m
+java:S2095Β"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…Ί 8άΡΔÿ1
+m
+java:S2095­"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…Ί 8ξΖ—Δÿ1
+¶
+java:S6548"A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Λ¤η½8οΖ—Δÿ1
+]	java:S125'"<This block of commented-out lines of code should be removed.(–ςυΏÿÿÿÿÿ8τΖ—Δÿ1
+Y	java:S125Ή"<This block of commented-out lines of code should be removed.(ΛΜÒ8ύΖ—Δÿ1
+Q
+java:S1144Υ"3Remove this unused private "existsByNumber" method.(χ¶ιƒ8Η—Δÿ1
