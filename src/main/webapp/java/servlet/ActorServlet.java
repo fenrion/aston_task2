@@ -4,8 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import dto.ActorAllDTO;
 import dto.ActorSingleDTO;
 import dto.ActorUpdateDTO;
-import dto.PhoneNumberUpdateDTO;
-import dto.mapper.PhoneNumberDtoMapper;
 import service.ActorService;
 
 import javax.servlet.*;
@@ -14,7 +12,6 @@ import javax.servlet.annotation.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

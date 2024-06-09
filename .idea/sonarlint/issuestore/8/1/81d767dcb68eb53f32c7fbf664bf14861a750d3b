@@ -1,33 +1,23 @@
 
-g	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
-g	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
-g	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
-h	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
-h	java:S112’"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
-h	java:S112Ÿ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â‰Ø»ÿ1
+g	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
+g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
+g	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
+g	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
+g	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â‰Ø»ÿ1
+k
+java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¶–^8ãÅ³»ÿ1
+q
+java:S2095u"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÃÇúØşÿÿÿÿ8ãÅ³»ÿ1
+q
+java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯­§úûÿÿÿÿ8äÅ³»ÿ1
 m
-java:S2095™"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯°ªØ8Ó‰Ø»ÿ1
-q
-java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¨í–íùÿÿÿÿ8ãÅ³»ÿ1
-r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÃÇúØşÿÿÿÿ8ãÅ³»ÿ1
-q
-java:S2095O"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·‰“Âøÿÿÿÿ8ãÅ³»ÿ1
-q
-java:S2095Z"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯­§úûÿÿÿÿ8äÅ³»ÿ1
+java:S2095‡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯°ªØ8Ó‰Ø»ÿ1
 l
-java:S2095{"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é¯ğ8ãÅ³»ÿ1
+java:S2095&"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å‘Îä8ãÅ³»ÿ1
+l
+java:S2095^"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é¯ğ8ãÅ³»ÿ1
 »
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(öÄóËüÿÿÿÿ8äÅ³»ÿ1
-X	java:S125&"<This block of commented-out lines of code should be removed.(êÅœ›8ùÉ¾ÿ1
-]	java:S125A"<This block of commented-out lines of code should be removed.(±“Ñııÿÿÿÿ8óÉ¾ÿ1
-F
-java:S1128")Remove this unused import 'entity.Movie'.(ÕÏ› 8–ùÉ¾ÿ1
-Q
-java:S1128"/Remove this unused import 'entity.PhoneNumber'.(¢¢íÆıÿÿÿÿ8–ùÉ¾ÿ1
-K
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8–ùÉ¾ÿ1
-Q
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8–ùÉ¾ÿ1
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(öÄóËüÿÿÿÿ8äÅ³»ÿ1
 T
-java:S1068"2Remove this unused "phoneNumberDAO" private field.(ãÑüÿÿÿÿ8–ùÉ¾ÿ1
+java:S1068"2Remove this unused "phoneNumberDAO" private field.(ãÑüÿÿÿÿ8–ùÉ¾ÿ1

@@ -1,17 +1,18 @@
 
-g	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ò›î¾ÿ1
-g	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ó›î¾ÿ1
-g	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ó›î¾ÿ1
-g	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ó›î¾ÿ1
+g	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âŸÈÿ1
+g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãŸÈÿ1
+g	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãŸÈÿ1
+g	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãŸÈÿ1
+h	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãŸÈÿ1
 Q
-java:S1066Z"/Merge this if statement with the enclosing one.(†ÑìÚşÿÿÿÿ8Ó›î¾ÿ1
+java:S1066s"/Merge this if statement with the enclosing one.(†ÑìÚşÿÿÿÿ8äŸÈÿ1
+q
+java:S2095Z"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(êàÏşÿÿÿÿ8 Èÿ1
 l
-java:S20952"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å‰êã8ñ›î¾ÿ1
+java:S2095?"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å‰êã8 Èÿ1
+m
+java:S2095ƒ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ü•Ó¦8 Èÿ1
 q
-java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(êàÏşÿÿÿÿ8ñ›î¾ÿ1
-q
-java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿²©ûÿÿÿÿ8ñ›î¾ÿ1
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿²©ûÿÿÿÿ8 Èÿ1
 »
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÁåË›ıÿÿÿÿ8ò›î¾ÿ1
-Q
-java:S1128"/Remove this unused import 'entity.PhoneNumber'.(¢¢íÆıÿÿÿÿ8÷›î¾ÿ1
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÁåË›ıÿÿÿÿ8‘ Èÿ1

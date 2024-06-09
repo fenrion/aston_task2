@@ -1,20 +1,12 @@
 
 9
 	task2.iml,6\6\66a7c4a7c4f79696533e2476969e0608ca8bc004
-d
-4src/main/webapp/java/servlet/PhoneNumberServlet.java,e\1\e190e674f7f05fb2bf8b9102a48de6c1375d3480
-^
-.src/main/webapp/java/service/MovieService.java,e\b\eb9ee4f9dd66da372308990c5a945337339e9119
-^
-.src/main/webapp/java/service/PhoneService.java,a\7\a7a99d3fa8fa9377bc632636065bfb75168cc8a2
 V
 &src/main/webapp/java/entity/Movie.java,b\0\b0602f8939fb6eb046ce0ae53a93a6407abc142b
 I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
-^
-.src/main/webapp/java/servlet/MovieServlet.java,e\2\e2a4eeaa577adca39a2ec269acf50befbc08d0db
 V
 &src/main/webapp/java/dao/MovieDAO.java,e\a\ea3ad2088c936c6224009c738f9ce9c39115842a
 7
