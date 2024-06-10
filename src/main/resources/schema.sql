@@ -1,6 +1,6 @@
 create table actors(
-                       id_act int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-                       name_act varchar(100) not null UNIQUE
+                       act_id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+                       act_name varchar(100) not null UNIQUE
 );
 
 create table movies(
@@ -8,23 +8,27 @@ create table movies(
                        name_mov varchar(100) not null unique
 );
 create table actors_movies(
-                              actor_id int references actors(id_act),
-                              movies_id int references movies(id_mov),
+                              actor_id int,
+                              movies_id int,
+                              FOREIGN KEY (actor_id) references actors(act_id),
+                              foreign key (movies_id) references movies(id_mov),
                               primary key (actor_id,movies_id)
 );
 
 create table phone_numbers(
                               ph_id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-                              actor_id int references actors(id_act),
+                              actor_id int,
                               ph_number varchar(15) not null unique,
+                              FOREIGN KEY (actor_id) REFERENCES actors (act_id) on delete cascade
 );
 
 
-insert into actors(name_act) values ('Tom');
-insert into actors(name_act) values ('Anna');
-insert into actors(name_act) values ('Sam');
-insert into actors(name_act) values ('Kate');
-insert into actors(name_act) values ('Leo');
+
+insert into actors(act_name) values ('Tom');
+insert into actors(act_name) values ('Anna');
+insert into actors(act_name) values ('Sam');
+insert into actors(act_name) values ('Kate');
+insert into actors(act_name) values ('Leo');
 
 
 insert  into movies(name_mov) values ('Film1');

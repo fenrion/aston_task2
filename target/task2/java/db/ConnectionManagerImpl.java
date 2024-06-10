@@ -10,10 +10,15 @@ import java.sql.SQLException;
  * class for connection db
  */
 public final class ConnectionManagerImpl implements ConnectionManager{
-    private static final String DRIVER_CLASS_KEY = "org.postgresql.Driver";
-    private static final String URL_KEY = "jdbc:postgresql://localhost:5432/aston_task2";
-    private static final String USERNAME_KEY = "postgres";
-    private static final String PASSWORD_KEY = "1m3zfklmb";
+    private static final String DRIVER_CLASS_KEY = "db.driver";
+    private static final String URL_KEY = "db.url";
+    private static final String USERNAME_KEY = "user";
+    private static final String PASSWORD_KEY = "password";
+
+//    private static final String DRIVER_CLASS_KEY = "org.postgresql.Driver";
+//    private static final String URL_KEY = "jdbc:postgresql://localhost:5432/aston_task2";
+//    private static final String USERNAME_KEY = "postgres";
+//    private static final String PASSWORD_KEY = "1m3zfklmb";
     private static ConnectionManager instance;
 
     public static synchronized ConnectionManager getInstance() {
@@ -26,7 +31,7 @@ public final class ConnectionManagerImpl implements ConnectionManager{
 
     private static void loadDriver(String driverClass) {
         try {
-            Class.forName(driverClass);
+            Class.forName(PropertiesUtil.getProperties(driverClass));
         } catch (ClassNotFoundException e) {
             throw new RuntimeException("Database driver not loaded.");
         }
@@ -35,9 +40,9 @@ public final class ConnectionManagerImpl implements ConnectionManager{
     @Override
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                URL_KEY,
-                USERNAME_KEY,
-                PASSWORD_KEY
+                PropertiesUtil.getProperties(URL_KEY),
+                PropertiesUtil.getProperties(USERNAME_KEY),
+                PropertiesUtil.getProperties(PASSWORD_KEY)
         );
     }
 }

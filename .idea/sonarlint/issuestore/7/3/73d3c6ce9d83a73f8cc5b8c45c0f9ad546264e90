@@ -1,7 +1,7 @@
 
 ¶
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(˜ýÛï8ÕÏ±Èÿ1
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(˜ýÛï8çÆùæÿ1
 Z
-java:S1155@">Use isEmpty() to check whether the collection is empty or not.(à »|8ÚÏ±Èÿ1
+java:S1155@">Use isEmpty() to check whether the collection is empty or not.(à »|8ùÆùæÿ1
 `
-java:S1155C">Use isEmpty() to check whether the collection is empty or not.(Õ»Ë¡úÿÿÿÿ8ÛÏ±Èÿ1
+java:S1155C">Use isEmpty() to check whether the collection is empty or not.(Õ»Ë¡úÿÿÿÿ8úÆùæÿ1

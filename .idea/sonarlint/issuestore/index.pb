@@ -47,3 +47,5 @@ i
 9src/main/webapp/java/dto/mapper/PhoneNumberDtoMapper.java,c\f\cf3637a39f5b54600028c03ea001319c101894ff
 c
 3src/main/webapp/java/dto/mapper/ActorDtoMapper.java,a\6\a68cd4453bd5a2266db71dfb96f5f262db4a90eb
+M
+src/main/resources/schema.sql,f\6\f670ac9cd71304abfdf3105b446a441347f608f6
