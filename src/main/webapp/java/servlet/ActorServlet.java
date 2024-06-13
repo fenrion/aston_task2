@@ -60,6 +60,7 @@ public class ActorServlet extends HttpServlet {
         }
         PrintWriter printWriter = response.getWriter();
         printWriter.write(responseString);
+        printWriter.write("testq");
         printWriter.flush();
     }
 
