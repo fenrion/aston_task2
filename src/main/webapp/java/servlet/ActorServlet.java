@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Optional;
 
-@WebServlet("/actor/*")
+@WebServlet("task2/actor/*")
 public class ActorServlet extends HttpServlet {
     private final ObjectMapper objectMapper;
 
