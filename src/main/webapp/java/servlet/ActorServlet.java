@@ -15,39 +15,50 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Optional;
 
-@WebServlet(name="ActorServlet", urlPatterns = {"/actor/all","/actor/4"})
+@WebServlet("/actor/*")
 public class ActorServlet extends HttpServlet {
-    private final String test_paths[] = {"/actor/all","/actor/4"};
     private final ObjectMapper objectMapper;
 
     public ActorServlet() {
         this.objectMapper = new ObjectMapper();
     }
+
     private final transient ActorService actorService = ActorService.getInstance();
+
+
+    private static void setJsonHeader(HttpServletResponse resp) {
+        resp.setContentType("application/json");
+        resp.setCharacterEncoding("UTF-8");
+    }
+
+    private static String getJson(HttpServletRequest req) throws IOException {
+        StringBuilder sb = new StringBuilder();
+        BufferedReader postData = req.getReader();
+        String line;
+        while ((line = postData.readLine()) != null) {
+            sb.append(line);
+        }
+        return sb.toString();
+    }
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String responseString = "all actors: ";
-        String test = request.getServletPath();
-        if (test.equals(test_paths[0])){
-            List<ActorAllDTO> actorDtoList = actorService.showActors();
+        try {
+            String[] pathPart = request.getPathInfo().split("/");
+            if ("all".equals(pathPart[1])) {
+                List<ActorAllDTO> actorDtoList = actorService.showActors();
                 response.setStatus(HttpServletResponse.SC_OK);
                 responseString += objectMapper.writeValueAsString(actorDtoList);
+            } else {
+                Integer actorId = Integer.parseInt(pathPart[1]);
+                ActorSingleDTO actor = actorService.showActor(actorId);
+                response.setStatus(HttpServletResponse.SC_OK);
+                responseString = objectMapper.writeValueAsString(actor);
+            }
+        } catch (Exception e) {
+            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
         }
-//        try {
-//            String[] pathPart = request.getPathInfo().split("/");
-//            if ("all".equals(pathPart[1])) {
-//                List<ActorAllDTO> actorDtoList = actorService.showActors();
-//                response.setStatus(HttpServletResponse.SC_OK);
-//                responseString += objectMapper.writeValueAsString(actorDtoList);
-//            } else {
-//                Integer actorId = Integer.parseInt(pathPart[1]);
-//                ActorSingleDTO actor = actorService.showActor(actorId);
-//                response.setStatus(HttpServletResponse.SC_OK);
-//                responseString = objectMapper.writeValueAsString(actor);
-//            }
-//        } catch (Exception e) {
-//            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
-//        }
         PrintWriter printWriter = response.getWriter();
         printWriter.write(responseString);
         printWriter.write(" test");
@@ -117,19 +128,5 @@ public class ActorServlet extends HttpServlet {
         PrintWriter printWriter = resp.getWriter();
         printWriter.write(responseString);
         printWriter.flush();
-    }
-    private static void setJsonHeader(HttpServletResponse resp) {
-        resp.setContentType("application/json");
-        resp.setCharacterEncoding("UTF-8");
-    }
-
-    private static String getJson(HttpServletRequest req) throws IOException {
-        StringBuilder sb = new StringBuilder();
-        BufferedReader postData = req.getReader();
-        String line;
-        while ((line = postData.readLine()) != null) {
-            sb.append(line);
-        }
-        return sb.toString();
     }
 }
