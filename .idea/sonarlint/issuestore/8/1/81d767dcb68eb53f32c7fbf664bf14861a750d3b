@@ -5,16 +5,16 @@ g	java:S112Q"FDefine and throw a dedicated exception instead of using a generi
 g	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
 g	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓÅ³»ÿ1
 h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â‰Ø»ÿ1
-l
-java:S2095^"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é¯ğ8ãÅ³»ÿ1
 q
 java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯­§úûÿÿÿÿ8äÅ³»ÿ1
 m
 java:S2095‡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯°ªØ8Ó‰Ø»ÿ1
-k
-java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¶–^8ãÅ³»ÿ1
 q
 java:S2095u"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÃÇúØşÿÿÿÿ8ãÅ³»ÿ1
+k
+java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¶–^8ãÅ³»ÿ1
+l
+java:S2095^"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é¯ğ8ãÅ³»ÿ1
 l
 java:S2095&"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å‘Îä8ãÅ³»ÿ1
 »

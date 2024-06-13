@@ -49,3 +49,9 @@ c
 3src/main/webapp/java/dto/mapper/ActorDtoMapper.java,a\6\a68cd4453bd5a2266db71dfb96f5f262db4a90eb
 M
 src/main/resources/schema.sql,f\6\f670ac9cd71304abfdf3105b446a441347f608f6
+[
++src/main/test/servlet/ActorServletTest.java,8\d\8df59f72da5b8c8dee55cd39be6c6a9fd1a28014
+N
+src/main/webapp/java/Main.java,1\0\1059c9dec9cc240ccf36fa588ffdc5eb343ea01f
+\
+,src/main/webapp/java/util/InitSqlScheme.java,0\7\074060d7ee9c2ba941f7ed33961f63e275c77805

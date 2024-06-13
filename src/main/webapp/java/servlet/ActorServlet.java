@@ -42,13 +42,13 @@ public class ActorServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String responseString = "";
+        String responseString = "all actors: ";
         try {
             String[] pathPart = request.getPathInfo().split("/");
             if ("all".equals(pathPart[1])) {
                 List<ActorAllDTO> actorDtoList = actorService.showActors();
                 response.setStatus(HttpServletResponse.SC_OK);
-                responseString = objectMapper.writeValueAsString(actorDtoList);
+                responseString += objectMapper.writeValueAsString(actorDtoList);
             } else {
                 Integer actorId = Integer.parseInt(pathPart[1]);
                 ActorSingleDTO actor = actorService.showActor(actorId);

@@ -77,18 +77,13 @@ public class ActorService {
      * @param index
      * @return
      */
-//    public String update(ActorUpdateDTO actorUpdateDto, int index) {
-//        Actor actor = actorDtoMapper.mapToUpdate(actorUpdateDto);
-//        actorDAO.updateActor(actor, index);
-//        phoneNumberDAO.updateNumber(actor.getPhoneNumberList(), index);
-//        return "updated!";
-//    }
-    public void update(ActorUpdateDTO actorUpdateDto, int index) {
+    public String update(ActorUpdateDTO actorUpdateDto, int index) {
         Actor actor = actorDtoMapper.mapToUpdate(actorUpdateDto);
         actorDAO.updateActor(actor, index);
         phoneNumberDAO.updateNumber(actor.getPhoneNumberList(), index);
-        //return "updated!";
+        return "updated!";
     }
+
 
     /**
      * 1. remove actor
